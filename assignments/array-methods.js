@@ -87,7 +87,7 @@ console.log(largeShirts);
 // The donations need to be tallied up and reported for tax purposes. Add up all the donations into a ticketPriceTotal array and log the result
 let ticketPriceTotal = [];
 const ticketTotal = runners.forEach(function(arr){
-let ticketPriceTotal =+ arr.donation[i];
+let ticketPriceTotal =+ arr.donation;
 
 });
 console.log(ticketPriceTotal);
